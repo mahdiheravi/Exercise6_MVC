@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Exercise6_MVC</string>
+    <string name="user">نام کاربری</string>
+    <string name="password">کلمه عبور</string>
+    <string name="admin_msg">Welcome you are admin</string>
+    <string name="user_msg">Welcome You are user</string>
+    <string name="enter">ورود</string>
 </resources>

@@ -7,14 +7,13 @@ package com.example.hp.exercise6_mvc;
 public class User {
     public  String username;
     public String password;
-    public User(String _username,String _password)
+    public int usertype;
+
+    public User(String _username,String _password,int _usertype)
     {
         username = _username;
         password = _password;
+        usertype = _usertype;
     }
-    public User(User myuser)
-    {
-        username = myuser.username;
-        password = myuser.password;
-    }
+
 }

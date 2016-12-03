@@ -5,9 +5,13 @@ package com.example.hp.exercise6_mvc;
  */
 
 public class Student extends User {
-    public Student(String _username, String _password) {
-        super(_username, _password);
+
+    public Student(String _username, String _password,int _usertype) {
+
+
+        super(_username, _password,_usertype);
+
     }
-    
+
 
 }

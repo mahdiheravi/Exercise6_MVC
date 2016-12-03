@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnenter = (Button) findViewById(R.id.btnenter);
+        EditText txtusername = (EditText) findViewById(R.id.txtusername);
+        EditText txtpass = (EditText) findViewById(R.id.txtpass);
+
         btnenter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
